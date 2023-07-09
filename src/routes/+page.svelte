@@ -19,7 +19,7 @@
 			</h1>
 			<p class="max-w-sm text-center leading-relaxed md:max-w-lg md:text-lg md:leading-relaxed">
 				Offer your employees access to an audiobook library hand-curated for fostering growth and
-				talent development.
+				develop your team's talents.
 			</p>
 			<a
 				href="/app"
