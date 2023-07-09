@@ -12,22 +12,21 @@
 </script>
 
 <div class="max-w-7xl mx-auto mt-4 md:mt-11">
-	<div class="flex flex-col space-y-24">
-		<section class="flex flex-col items-center space-y-14 md:space-y-0">
-			<div class="flex flex-col space-y-8 px-6">
-				<h1 class="text-5xl max-w-md font-bold text-center md:text-6xl md:max-w-lg">
-					Empower Your Team With Audiobooks
-				</h1>
-				<p class="max-w-sm text-center md:max-w-lg md:text-lg">
-					Offer your employees access to an audiobook library hand-curated for fostering growth and
-					talent development.
-				</p>
-				<a
-					href="/app"
-					class="btn w-48 variant-filled bg-secondary-500 mx-auto text-on-primary-token">Discover</a
-				>
-			</div>
-		</section>
+	<div class="flex flex-col space-y-12 md:space-y-24">
+		<div class="flex flex-col space-y-10 px-6 mx-auto">
+			<h1 class="text-5xl max-w-md font-bold text-center tracking-tight md:text-6xl md:max-w-lg">
+				Empower Your Team With Audiobooks
+			</h1>
+			<p class="max-w-sm text-center leading-relaxed md:max-w-lg md:text-lg md:leading-relaxed">
+				Offer your employees access to an audiobook library hand-curated for fostering growth and
+				talent development.
+			</p>
+			<a
+				href="/app"
+				class="hidden btn w-48 variant-filled bg-secondary-500 mx-auto text-on-primary-token md:block"
+				>Discover</a
+			>
+		</div>
 		<section>
 			<div
 				class="snap-x scroll-px-4 snap-mandatory scroll-smooth flex gap-4 overflow-x-auto px-4 py-10 items-center"
@@ -39,5 +38,10 @@
 				{/each}
 			</div>
 		</section>
+		<a
+			href="/app"
+			class="btn w-64 variant-filled bg-secondary-500 mx-auto text-on-primary-token md:hidden"
+			>Discover</a
+		>
 	</div>
 </div>

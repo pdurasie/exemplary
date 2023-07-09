@@ -14,7 +14,7 @@
 		<div class="flex justify-between">
 			<a href="/" class="my-auto text-4xl font-medium">Exemplary</a>
 			<div class="flex px-2 py-6 space-x-6">
-				<div class="hidden space-x-8 md:flex">
+				<div class="hidden space-x-6 md:flex">
 					<a href="/signin" class="btn bg-initial hover:text-gray-800 my-auto">Sign In</a>
 				</div>
 				<a
