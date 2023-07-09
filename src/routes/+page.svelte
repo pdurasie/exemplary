@@ -14,19 +14,17 @@
 <div class="max-w-7xl mx-auto mt-4 md:mt-11">
 	<section class="flex flex-col items-center space-y-14 md:space-y-0 md:space-x-12 md:flex-row">
 		<div class="flex flex-col space-y-6 px-6 md:w-1/2">
-			<h1
-				class="text-4xl max-w-md font-bold text-primary text-center font-serif md:text-left md:text-5xl"
-			>
+			<h1 class="text-4xl max-w-md font-bold text-primary text-center md:text-left md:text-5xl">
 				Empower Your Team With Audiobooks
 			</h1>
-			<p class="max-w-sm text-center text-primary font-serif md:text-left">
-				Offer your employees a tailored audiobook library to foster growth and strengthen your brand
-				identity.
+			<p class="max-w-sm text-center text-primary md:text-left">
+				Offer your employees access to an audiobook library hand-curated for fostering growth and
+				talent development.
 			</p>
 			<a
 				href="/app"
-				class="hidden btn w-56 bg-primary hover:bg-primary-dark text-gray-100 hover:text-gray-200 mx-auto md:flex md:mx-0"
-				>Create your library</a
+				class="btn w-36 variant-filled bg-primary-500 text-on-primary-token font-medium hover:bg-primary-dark hover:text-gray-200 mx-auto md:flex md:mx-0"
+				>Discover</a
 			>
 		</div>
 		<div class="bg-primary w-1/3 h-px md:w-px md:h-28" />
