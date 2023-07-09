@@ -12,31 +12,32 @@
 </script>
 
 <div class="max-w-7xl mx-auto mt-4 md:mt-11">
-	<section class="flex flex-col items-center space-y-14 md:space-y-0 md:space-x-12 md:flex-row">
-		<div class="flex flex-col space-y-6 px-6 md:w-1/2">
-			<h1 class="text-4xl max-w-md font-bold text-primary text-center md:text-left md:text-5xl">
-				Empower Your Team With Audiobooks
-			</h1>
-			<p class="max-w-sm text-center text-primary md:text-left">
-				Offer your employees access to an audiobook library hand-curated for fostering growth and
-				talent development.
-			</p>
-			<a
-				href="/app"
-				class="btn w-36 variant-filled bg-primary-500 text-on-primary-token font-medium hover:bg-primary-dark hover:text-gray-200 mx-auto md:flex md:mx-0"
-				>Discover</a
+	<div class="flex flex-col space-y-24">
+		<section class="flex flex-col items-center space-y-14 md:space-y-0">
+			<div class="flex flex-col space-y-8 px-6">
+				<h1 class="text-5xl max-w-md font-bold text-center md:text-6xl md:max-w-lg">
+					Empower Your Team With Audiobooks
+				</h1>
+				<p class="max-w-sm text-center md:max-w-lg md:text-lg">
+					Offer your employees access to an audiobook library hand-curated for fostering growth and
+					talent development.
+				</p>
+				<a
+					href="/app"
+					class="btn w-48 variant-filled bg-secondary-500 mx-auto text-on-primary-token">Discover</a
+				>
+			</div>
+		</section>
+		<section>
+			<div
+				class="snap-x scroll-px-4 snap-mandatory scroll-smooth flex gap-4 overflow-x-auto px-4 py-10 items-center"
 			>
-		</div>
-		<div class="bg-primary w-1/3 h-px md:w-px md:h-28" />
-		<div class="flex flex-col items-center">
-			<div class="carousel carousel-center space-x-2">
 				{#each images as image}
-					<div class="carousel-item">
+					<div class="snap-align-none shrink-0 card bg-transparent">
 						<img src={image} alt="" class="rounded-3xl" />
 					</div>
 				{/each}
 			</div>
-		</div>
-		<a href="/app" class="flex btn bg-primary md:hidden">Create your library</a>
-	</section>
+		</section>
+	</div>
 </div>
